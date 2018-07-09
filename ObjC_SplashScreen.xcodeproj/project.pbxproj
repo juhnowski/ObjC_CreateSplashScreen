@@ -13,6 +13,7 @@
 		09B290F320F3D4E800C75D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B290F220F3D4E800C75D59 /* Assets.xcassets */; };
 		09B290F620F3D4E800C75D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B290F420F3D4E800C75D59 /* LaunchScreen.storyboard */; };
 		09B290F920F3D4E800C75D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B290F820F3D4E800C75D59 /* main.m */; };
+		09B2910020F3DDAD00C75D59 /* winter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09B290FF20F3DDAD00C75D59 /* winter.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09B290F520F3D4E800C75D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B290F720F3D4E800C75D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B290F820F3D4E800C75D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B290FF20F3DDAD00C75D59 /* winter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				09B290ED20F3D4E800C75D59 /* ViewController.m */,
 				09B290EF20F3D4E800C75D59 /* Main.storyboard */,
 				09B290F220F3D4E800C75D59 /* Assets.xcassets */,
+				09B290FF20F3DDAD00C75D59 /* winter.jpg */,
 				09B290F420F3D4E800C75D59 /* LaunchScreen.storyboard */,
 				09B290F720F3D4E800C75D59 /* Info.plist */,
 				09B290F820F3D4E800C75D59 /* main.m */,
@@ -130,6 +133,7 @@
 			files = (
 				09B290F620F3D4E800C75D59 /* LaunchScreen.storyboard in Resources */,
 				09B290F320F3D4E800C75D59 /* Assets.xcassets in Resources */,
+				09B2910020F3DDAD00C75D59 /* winter.jpg in Resources */,
 				09B290F120F3D4E800C75D59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKNT78S249;
 				INFOPLIST_FILE = ObjC_SplashScreen/Info.plist;
@@ -300,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKNT78S249;
 				INFOPLIST_FILE = ObjC_SplashScreen/Info.plist;
